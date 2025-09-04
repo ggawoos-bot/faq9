@@ -8,7 +8,8 @@ import FaqCard from './components/FaqCard';
 import FaqDetailModal from './components/FaqDetailModal';
 import { SparklesIcon, LoaderIcon } from './components/icons';
 import { db } from './firebase';
-import { collection, getDocs, query, where, orderBy, Timestamp } from 'firebase/firestore';
+// FIX: Changed import from 'firebase/firestore' to '@firebase/firestore' for consistency and to avoid potential module resolution issues.
+import { collection, getDocs, query, where, orderBy, Timestamp } from '@firebase/firestore';
 
 const App: React.FC = () => {
   const [faqs, setFaqs] = useState<FAQ[]>([]);
