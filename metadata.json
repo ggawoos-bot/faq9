@@ -1,0 +1,5 @@
+{
+  "name": "FAQ Management System",
+  "description": "An efficient and user-friendly web application for managing and searching Frequently Asked Questions. It features real-time search, category filtering, and a clean, responsive interface.",
+  "requestFramePermissions": []
+}
